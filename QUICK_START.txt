@@ -1,0 +1,168 @@
+================================================================================
+QUICK START - Noise Removal & Preprocessing Visualization
+================================================================================
+
+FIXED: The preprocessing pipeline now works with your dataset structure!
+
+STEP 1: Install Dependencies (REQUIRED - Do this first!)
+------------------------------------------------------------------------
+pip install numpy pillow matplotlib scipy opencv-python torch torchvision
+
+
+STEP 2: Test Everything Works
+------------------------------------------------------------------------
+python test_preprocessing.py
+
+Expected: "ALL TESTS PASSED!"
+
+
+STEP 3: Visualize Preprocessing Steps
+------------------------------------------------------------------------
+python preprocessing_pipeline.py
+
+Output:
+  - preprocessing_steps_training.png     (6-panel visualization)
+  - denoising_comparison_training.png    (4 denoising methods)
+
+What you'll see:
+  ✓ Raw band vs Denoised vs Normalized
+  ✓ Difference map showing exactly what noise was removed
+  ✓ Quality metrics (SNR improvement)
+  ✓ Comparison of 4 denoising methods
+
+
+STEP 4: Analyze Prediction Noise (Optional - needs trained model)
+------------------------------------------------------------------------
+python visualize_prediction_noise.py
+
+Output:
+  - noise_analysis_*.png           (noise location breakdown)
+  - preprocessing_comparison_*.png (impact on predictions)
+
+What you'll see:
+  ✓ Where noise appears: background, edges, or materials
+  ✓ Confidence map (low confidence = likely noise)
+  ✓ Comparison of preprocessing methods
+
+
+UNDERSTANDING THE VISUALIZATIONS
+========================================================================
+
+preprocessing_steps_*.png:
+  - Panel 1: Raw band (original noisy data)
+  - Panel 3: Denoised (after spatial filtering)
+  - Panel 4: Normalized (final preprocessed)
+  - Panel 5: DIFFERENCE MAP - HOT SPOTS = NOISE REMOVED ← Important!
+  - Panel 6: Quality metrics
+
+  Look for: Hot colors in difference map = denoising is working
+
+denoising_comparison_*.png:
+  - Shows 4 methods: median, gaussian, bilateral, non-local means
+  - Choose the one with best noise removal and edge preservation
+
+  Recommended: median (fast) or bilateral (edge-preserving)
+
+noise_analysis_*.png:
+  - Panel 3: Noise map (red = noise pixels)
+  - Panel 4: Noise location (dark red = BAD, yellow = minor)
+  - Goal: Minimize dark red (noise in materials)
+
+
+COMMON ISSUES & FIXES
+========================================================================
+
+Issue: "ModuleNotFoundError: No module named 'numpy'"
+Fix:   pip install numpy pillow matplotlib scipy opencv-python
+
+Issue: "IndexError: list index out of range"
+Fix:   ALREADY FIXED! Re-download preprocessing_pipeline.py
+
+Issue: Visualizations don't show
+Fix:   They're saved as PNG files, check the output files
+
+Issue: "best_model.pth not found"
+Fix:   Only needed for step 4. Run: python train.py first
+
+
+FILES CREATED
+========================================================================
+
+Main Tools:
+  ✓ preprocessing_pipeline.py       - Preprocessing with visualization
+  ✓ visualize_prediction_noise.py   - Prediction noise analysis
+  ✓ test_preprocessing.py           - Installation test
+
+Guides:
+  ✓ NOISE_REMOVAL_GUIDE.md          - Detailed documentation
+  ✓ INSTALL_AND_RUN.md              - Installation guide
+  ✓ QUICK_START.txt                 - This file
+
+Previous Files (still useful):
+  ✓ export_with_diagnostics.py      - Export clean bands
+  ✓ THRESHOLD_GUIDE.md              - Band filtering guide
+
+
+WORKFLOW SUMMARY
+========================================================================
+
+Your goal: Remove noise from predictions (background, between materials)
+
+Solution pipeline:
+  1. Filter noisy bands     → Remove low-quality wavelengths
+  2. Spatial denoising      → Remove salt-and-pepper noise
+  3. Band-wise normalize    → Enhance contrast per band
+  4. Visualize each step    → Identify where noise comes from
+
+Run this workflow:
+  1. pip install [dependencies]
+  2. python test_preprocessing.py        ← Verify installation
+  3. python preprocessing_pipeline.py    ← See preprocessing steps
+  4. Choose best denoising method from visualization
+  5. Update train.py to use chosen method
+  6. Retrain model with clean preprocessing
+  7. python visualize_prediction_noise.py ← Verify noise reduced
+
+
+NEXT STEPS
+========================================================================
+
+Right now:
+  1. Install dependencies (Step 1 above)
+  2. Run test_preprocessing.py
+  3. Run preprocessing_pipeline.py
+  4. Look at the output PNG files
+
+What to check in the visualizations:
+  - Is the difference map showing hot spots? (noise being removed)
+  - Which denoising method looks best?
+  - Does the normalized image look cleaner than raw?
+
+Then:
+  - Update your training script to use the best preprocessing
+  - Retrain the model
+  - Check if prediction noise decreased
+
+
+HELP
+========================================================================
+
+Detailed guide:  cat NOISE_REMOVAL_GUIDE.md
+Install guide:   cat INSTALL_AND_RUN.md
+Test:            python test_preprocessing.py
+
+Questions about specific files:
+  - Preprocessing:         preprocessing_pipeline.py
+  - Prediction analysis:   visualize_prediction_noise.py
+  - Export clean bands:    export_with_diagnostics.py
+
+
+================================================================================
+TL;DR: Run these 3 commands (after installing dependencies)
+================================================================================
+
+pip install numpy pillow matplotlib scipy opencv-python torch torchvision
+python test_preprocessing.py
+python preprocessing_pipeline.py
+
+Then check: preprocessing_steps_training.png and denoising_comparison_training.png

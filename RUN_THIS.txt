@@ -1,0 +1,195 @@
+================================================================================
+✓ UPDATED: Now Compares Normalized WITH vs WITHOUT Denoising
+================================================================================
+
+WHAT'S NEW:
+-----------
+The preprocessing checker now shows 8 panels including:
+  • Normalized WITHOUT denoising (Panel 5, RED title)
+  • Normalized WITH denoising (Panel 6, GREEN title)
+  • Difference after normalization (Panel 7, HOT COLORS = denoising matters)
+
+This answers your question: "Does denoising still help after normalization?"
+
+
+STEP 1: Install Dependencies
+================================================================================
+pip install numpy pillow matplotlib scipy
+
+
+STEP 2: Run Preprocessing Comparison
+================================================================================
+python check_preprocessing.py
+
+Output: preprocessing_check_training_dataset.png (8 panels)
+
+
+STEP 3: Check the Output Image
+================================================================================
+
+Focus on the BOTTOM ROW (4 panels):
+
+Panel 5 (RED title):    Normalized WITHOUT denoising
+Panel 6 (GREEN title):  Normalized WITH denoising
+Panel 7 (KEY!):         Difference between Panel 5 and Panel 6
+Panel 8:                Summary statistics
+
+WHAT TO LOOK FOR IN PANEL 7:
+-----------------------------
+HOT COLORS (red/yellow/white) = Denoising makes a difference
+DARK COLORS (blue/black)      = Denoising has minimal impact
+
+The console output will tell you:
+  "✓ Denoising has SIGNIFICANT impact even after normalization"
+  OR
+  "• Denoising has MINIMAL impact after normalization"
+
+
+STEP 4: Make Your Decision
+================================================================================
+
+If Panel 7 shows HOT COLORS (mean > 0.01):
+  → USE denoising in your training pipeline
+  → Preprocessing: Filter → Denoise → Normalize
+
+If Panel 7 is mostly DARK (mean < 0.01):
+  → Normalization alone may be sufficient
+  → Preprocessing: Filter → Normalize (skip denoising)
+
+
+UNDERSTANDING THE 8 PANELS
+================================================================================
+
+Top Row (preprocessing steps):
+  1. Raw Band               - Original data (noisiest band)
+  2. After Band Filtering   - This band passed quality checks
+  3. Median Denoising       - After removing noise
+  4. Noise Removed          - What denoising removed (before normalize)
+
+Bottom Row (comparison after normalization):
+  5. Normalized (NO denoise)  - Path without denoising (RED)
+  6. Normalized (WITH denoise) - Path with denoising (GREEN)
+  7. Difference               - Impact of denoising (HOT = matters!)
+  8. Statistics               - Summary and recommendation
+
+
+WHAT THE COMPARISON SHOWS
+================================================================================
+
+Panel 4 shows: Noise removed BEFORE normalization
+Panel 7 shows: Difference AFTER normalization
+
+If Panel 7 has hot colors:
+  → Even after normalization, denoising makes a visible difference
+  → The noise is NOT fully removed by normalization alone
+  → Recommendation: Use denoising
+
+If Panel 7 is mostly dark:
+  → Normalization (percentile clipping + brightness boost) already
+    removes most of the noise impact
+  → Denoising provides minimal additional benefit
+  → Recommendation: Normalization alone may be sufficient
+
+
+EXAMPLE OUTPUT
+================================================================================
+
+Console will show:
+
+Quality Metrics:
+  Raw SNR:              1.23
+  Denoised SNR:         1.45
+
+After Normalization:
+  WITHOUT denoise SNR:  2.15
+  WITH denoise SNR:     2.34
+
+Noise Impact:
+  Before normalize:     3.45 (mean diff)
+  After normalize:      0.0234 (mean diff)    ← KEY METRIC
+  Reduction:            72.3%
+
+COMPARISON:
+  Panel 5 (RED):   Without denoising
+  Panel 6 (GREEN): With denoising
+  Panel 7 (DIFF):  Impact of denoising after normalization
+
+Conclusion:
+  ✓ Denoising has SIGNIFICANT impact even after normalization
+  → Recommend using denoising in training pipeline
+
+
+QUICK DECISION GUIDE
+================================================================================
+
+Check "After normalize" mean diff in console output:
+
+  > 0.02  → DEFINITELY use denoising
+  0.01-0.02 → Recommended to use denoising
+  0.005-0.01 → Small impact, optional
+  < 0.005 → Minimal impact, normalization sufficient
+
+
+TEST ON DIFFERENT DATASETS
+================================================================================
+
+Training dataset:
+  python check_preprocessing.py training_dataset
+
+Inference datasets:
+  python check_preprocessing.py Inference_dataset1
+  python check_preprocessing.py Inference_dataset2
+  python check_preprocessing.py Inference_dataset3
+
+Compare the results across datasets to make a final decision.
+
+
+IMPORTANT REMINDERS
+================================================================================
+
+1. Focus on PANEL 7 (Difference After Normalization)
+   This is the KEY panel that answers your question!
+
+2. Use the SAME preprocessing for training and inference
+   Mismatch will hurt performance!
+
+3. The last band is shown (noisiest after filtering)
+   If denoising helps here, it definitely helps overall
+
+4. Visual inspection matters too
+   Even if metrics say minimal, if you SEE improvement, use it
+
+
+FILES REFERENCE
+================================================================================
+
+Main tool:
+  check_preprocessing.py - 8-panel comparison (USE THIS!)
+
+Documentation:
+  COMPARISON_GUIDE.md    - Detailed interpretation guide
+  README_PREPROCESSING.md - Complete preprocessing documentation
+
+Other tools:
+  preprocessing_pipeline.py    - Advanced analysis
+  visualize_prediction_noise.py - For after training
+
+
+NEXT STEPS
+================================================================================
+
+1. pip install numpy pillow matplotlib scipy
+2. python check_preprocessing.py
+3. Open: preprocessing_check_training_dataset.png
+4. Focus on Panel 7 (bottom row, third from left)
+5. Read the console conclusion
+6. Decide: Use denoising or not?
+7. Update train.py with chosen preprocessing
+8. Train model
+9. Use SAME preprocessing for inference
+
+
+================================================================================
+TL;DR: Run "python check_preprocessing.py" and check Panel 7.
+       Hot colors = use denoising. Dark = normalization alone is fine.
+================================================================================

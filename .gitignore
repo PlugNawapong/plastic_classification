@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.hdr
+*.raw
+training_dataset/
+test_dataset/
+Ground_Truth/
+
+# Checkpoints and logs
+checkpoints*/
+logs*/
+runs/
+colab_results/
+
+# PCA models
+*.pkl
+
+# Results
+*.json
+!header.json
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak

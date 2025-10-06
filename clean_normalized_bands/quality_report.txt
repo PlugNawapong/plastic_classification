@@ -1,0 +1,472 @@
+QUALITY REPORT
+================================================================================
+
+Wavelength range: 450.5 - 853.6 nm
+Total bands: 458
+Clean bands: 183/458 (40.0%)
+SNR threshold: 0.38
+Variance threshold: 3.25
+
+CLEAN BANDS:
+--------------------------------------------------------------------------------
+Band   1    450.5nm  SNR:  0.42  Var:   147.3  Band_001_450.5nm_normalized.png
+Band   2    451.4nm  SNR:  0.42  Var:   154.3  Band_002_451.4nm_normalized.png
+Band   3    452.3nm  SNR:  0.42  Var:   161.3  Band_003_452.3nm_normalized.png
+Band   4    453.2nm  SNR:  0.42  Var:   169.8  Band_004_453.2nm_normalized.png
+Band   5    454.0nm  SNR:  0.42  Var:   179.5  Band_005_454.0nm_normalized.png
+Band   6    454.9nm  SNR:  0.42  Var:   188.9  Band_006_454.9nm_normalized.png
+Band   7    455.8nm  SNR:  0.42  Var:   197.6  Band_007_455.8nm_normalized.png
+Band   8    456.7nm  SNR:  0.42  Var:   205.6  Band_008_456.7nm_normalized.png
+Band   9    457.6nm  SNR:  0.41  Var:   213.7  Band_009_457.6nm_normalized.png
+Band  10    458.4nm  SNR:  0.41  Var:   222.1  Band_010_458.4nm_normalized.png
+Band  11    459.3nm  SNR:  0.41  Var:   230.8  Band_011_459.3nm_normalized.png
+Band  12    460.2nm  SNR:  0.41  Var:   238.9  Band_012_460.2nm_normalized.png
+Band  13    461.1nm  SNR:  0.41  Var:   246.6  Band_013_461.1nm_normalized.png
+Band  14    462.0nm  SNR:  0.41  Var:   255.5  Band_014_462.0nm_normalized.png
+Band  15    462.9nm  SNR:  0.41  Var:   265.3  Band_015_462.9nm_normalized.png
+Band  16    463.7nm  SNR:  0.41  Var:   274.9  Band_016_463.7nm_normalized.png
+Band  17    464.6nm  SNR:  0.41  Var:   284.9  Band_017_464.6nm_normalized.png
+Band  18    465.5nm  SNR:  0.41  Var:   295.4  Band_018_465.5nm_normalized.png
+Band  19    466.4nm  SNR:  0.41  Var:   306.4  Band_019_466.4nm_normalized.png
+Band  20    467.3nm  SNR:  0.41  Var:   318.3  Band_020_467.3nm_normalized.png
+Band  21    468.1nm  SNR:  0.41  Var:   329.4  Band_021_468.1nm_normalized.png
+Band  22    469.0nm  SNR:  0.41  Var:   338.7  Band_022_469.0nm_normalized.png
+Band  23    469.9nm  SNR:  0.41  Var:   347.1  Band_023_469.9nm_normalized.png
+Band  24    470.8nm  SNR:  0.41  Var:   356.5  Band_024_470.8nm_normalized.png
+Band  25    471.7nm  SNR:  0.41  Var:   367.4  Band_025_471.7nm_normalized.png
+Band  26    472.6nm  SNR:  0.41  Var:   378.3  Band_026_472.6nm_normalized.png
+Band  27    473.4nm  SNR:  0.41  Var:   389.1  Band_027_473.4nm_normalized.png
+Band  28    474.3nm  SNR:  0.41  Var:   399.2  Band_028_474.3nm_normalized.png
+Band  29    475.2nm  SNR:  0.41  Var:   408.1  Band_029_475.2nm_normalized.png
+Band  30    476.1nm  SNR:  0.41  Var:   416.9  Band_030_476.1nm_normalized.png
+Band  31    477.0nm  SNR:  0.41  Var:   426.9  Band_031_477.0nm_normalized.png
+Band  32    477.8nm  SNR:  0.41  Var:   438.6  Band_032_477.8nm_normalized.png
+Band  33    478.7nm  SNR:  0.41  Var:   449.9  Band_033_478.7nm_normalized.png
+Band  34    479.6nm  SNR:  0.41  Var:   460.7  Band_034_479.6nm_normalized.png
+Band  35    480.5nm  SNR:  0.40  Var:   471.8  Band_035_480.5nm_normalized.png
+Band  36    481.4nm  SNR:  0.40  Var:   482.3  Band_036_481.4nm_normalized.png
+Band  37    482.3nm  SNR:  0.40  Var:   493.1  Band_037_482.3nm_normalized.png
+Band  38    483.1nm  SNR:  0.40  Var:   504.5  Band_038_483.1nm_normalized.png
+Band  39    484.0nm  SNR:  0.40  Var:   515.2  Band_039_484.0nm_normalized.png
+Band  40    484.9nm  SNR:  0.40  Var:   524.2  Band_040_484.9nm_normalized.png
+Band  41    485.8nm  SNR:  0.40  Var:   532.9  Band_041_485.8nm_normalized.png
+Band  42    486.7nm  SNR:  0.40  Var:   540.6  Band_042_486.7nm_normalized.png
+Band  43    487.6nm  SNR:  0.40  Var:   548.8  Band_043_487.6nm_normalized.png
+Band  44    488.4nm  SNR:  0.40  Var:   556.5  Band_044_488.4nm_normalized.png
+Band  45    489.3nm  SNR:  0.40  Var:   564.2  Band_045_489.3nm_normalized.png
+Band  46    490.2nm  SNR:  0.40  Var:   571.8  Band_046_490.2nm_normalized.png
+Band  47    491.1nm  SNR:  0.40  Var:   577.5  Band_047_491.1nm_normalized.png
+Band  48    492.0nm  SNR:  0.40  Var:   582.8  Band_048_492.0nm_normalized.png
+Band  49    492.8nm  SNR:  0.40  Var:   588.9  Band_049_492.8nm_normalized.png
+Band  50    493.7nm  SNR:  0.40  Var:   597.4  Band_050_493.7nm_normalized.png
+Band  51    494.6nm  SNR:  0.40  Var:   606.4  Band_051_494.6nm_normalized.png
+Band  52    495.5nm  SNR:  0.40  Var:   614.4  Band_052_495.5nm_normalized.png
+Band  53    496.4nm  SNR:  0.40  Var:   622.4  Band_053_496.4nm_normalized.png
+Band  54    497.3nm  SNR:  0.40  Var:   628.7  Band_054_497.3nm_normalized.png
+Band  55    498.1nm  SNR:  0.40  Var:   631.6  Band_055_498.1nm_normalized.png
+Band  56    499.0nm  SNR:  0.40  Var:   634.2  Band_056_499.0nm_normalized.png
+Band  57    499.9nm  SNR:  0.40  Var:   637.3  Band_057_499.9nm_normalized.png
+Band  58    500.8nm  SNR:  0.40  Var:   639.3  Band_058_500.8nm_normalized.png
+Band  59    501.7nm  SNR:  0.40  Var:   641.0  Band_059_501.7nm_normalized.png
+Band  60    502.5nm  SNR:  0.40  Var:   643.3  Band_060_502.5nm_normalized.png
+Band  61    503.4nm  SNR:  0.39  Var:   645.5  Band_061_503.4nm_normalized.png
+Band  62    504.3nm  SNR:  0.39  Var:   648.1  Band_062_504.3nm_normalized.png
+Band  63    505.2nm  SNR:  0.39  Var:   651.5  Band_063_505.2nm_normalized.png
+Band  64    506.1nm  SNR:  0.39  Var:   654.3  Band_064_506.1nm_normalized.png
+Band  65    507.0nm  SNR:  0.39  Var:   655.5  Band_065_507.0nm_normalized.png
+Band  66    507.8nm  SNR:  0.39  Var:   654.9  Band_066_507.8nm_normalized.png
+Band  67    508.7nm  SNR:  0.39  Var:   654.6  Band_067_508.7nm_normalized.png
+Band  68    509.6nm  SNR:  0.39  Var:   651.7  Band_068_509.6nm_normalized.png
+Band  69    510.5nm  SNR:  0.39  Var:   650.7  Band_069_510.5nm_normalized.png
+Band  70    511.4nm  SNR:  0.39  Var:   651.8  Band_070_511.4nm_normalized.png
+Band  71    512.2nm  SNR:  0.39  Var:   655.2  Band_071_512.2nm_normalized.png
+Band  72    513.1nm  SNR:  0.39  Var:   657.5  Band_072_513.1nm_normalized.png
+Band  73    514.0nm  SNR:  0.39  Var:   660.5  Band_073_514.0nm_normalized.png
+Band  74    514.9nm  SNR:  0.39  Var:   660.5  Band_074_514.9nm_normalized.png
+Band  75    515.8nm  SNR:  0.39  Var:   656.8  Band_075_515.8nm_normalized.png
+Band  76    516.7nm  SNR:  0.39  Var:   650.4  Band_076_516.7nm_normalized.png
+Band  77    517.5nm  SNR:  0.39  Var:   645.2  Band_077_517.5nm_normalized.png
+Band  78    518.4nm  SNR:  0.39  Var:   640.8  Band_078_518.4nm_normalized.png
+Band  79    519.3nm  SNR:  0.39  Var:   637.6  Band_079_519.3nm_normalized.png
+Band  80    520.2nm  SNR:  0.39  Var:   636.7  Band_080_520.2nm_normalized.png
+Band  81    521.1nm  SNR:  0.39  Var:   636.5  Band_081_521.1nm_normalized.png
+Band  82    521.9nm  SNR:  0.39  Var:   634.4  Band_082_521.9nm_normalized.png
+Band  83    522.8nm  SNR:  0.39  Var:   629.5  Band_083_522.8nm_normalized.png
+Band  84    523.7nm  SNR:  0.39  Var:   624.1  Band_084_523.7nm_normalized.png
+Band  85    524.6nm  SNR:  0.39  Var:   616.2  Band_085_524.6nm_normalized.png
+Band  86    525.5nm  SNR:  0.39  Var:   608.3  Band_086_525.5nm_normalized.png
+Band  87    526.4nm  SNR:  0.39  Var:   601.4  Band_087_526.4nm_normalized.png
+Band  88    527.2nm  SNR:  0.39  Var:   596.9  Band_088_527.2nm_normalized.png
+Band  89    528.1nm  SNR:  0.39  Var:   591.7  Band_089_528.1nm_normalized.png
+Band  90    529.0nm  SNR:  0.39  Var:   586.7  Band_090_529.0nm_normalized.png
+Band  91    529.9nm  SNR:  0.38  Var:   581.4  Band_091_529.9nm_normalized.png
+Band  92    530.8nm  SNR:  0.38  Var:   574.7  Band_092_530.8nm_normalized.png
+Band  93    531.7nm  SNR:  0.38  Var:   566.1  Band_093_531.7nm_normalized.png
+Band  94    532.5nm  SNR:  0.38  Var:   556.7  Band_094_532.5nm_normalized.png
+Band  95    533.4nm  SNR:  0.38  Var:   549.5  Band_095_533.4nm_normalized.png
+Band  96    534.3nm  SNR:  0.38  Var:   542.2  Band_096_534.3nm_normalized.png
+Band  97    535.2nm  SNR:  0.38  Var:   535.3  Band_097_535.2nm_normalized.png
+Band  98    536.1nm  SNR:  0.38  Var:   530.1  Band_098_536.1nm_normalized.png
+Band  99    536.9nm  SNR:  0.38  Var:   524.4  Band_099_536.9nm_normalized.png
+Band 100    537.8nm  SNR:  0.38  Var:   517.0  Band_100_537.8nm_normalized.png
+Band 101    538.7nm  SNR:  0.38  Var:   507.6  Band_101_538.7nm_normalized.png
+Band 102    539.6nm  SNR:  0.38  Var:   498.1  Band_102_539.6nm_normalized.png
+Band 103    540.5nm  SNR:  0.38  Var:   488.5  Band_103_540.5nm_normalized.png
+Band 104    541.4nm  SNR:  0.38  Var:   478.7  Band_104_541.4nm_normalized.png
+Band 105    542.2nm  SNR:  0.38  Var:   470.7  Band_105_542.2nm_normalized.png
+Band 106    543.1nm  SNR:  0.38  Var:   464.4  Band_106_543.1nm_normalized.png
+Band 107    544.0nm  SNR:  0.38  Var:   457.7  Band_107_544.0nm_normalized.png
+Band 108    544.9nm  SNR:  0.38  Var:   452.4  Band_108_544.9nm_normalized.png
+Band 109    545.8nm  SNR:  0.38  Var:   446.5  Band_109_545.8nm_normalized.png
+Band 110    546.6nm  SNR:  0.38  Var:   438.9  Band_110_546.6nm_normalized.png
+Band 111    547.5nm  SNR:  0.38  Var:   430.3  Band_111_547.5nm_normalized.png
+Band 112    548.4nm  SNR:  0.38  Var:   421.9  Band_112_548.4nm_normalized.png
+Band 113    549.3nm  SNR:  0.38  Var:   414.0  Band_113_549.3nm_normalized.png
+Band 114    550.2nm  SNR:  0.38  Var:   406.7  Band_114_550.2nm_normalized.png
+Band 115    551.1nm  SNR:  0.38  Var:   400.0  Band_115_551.1nm_normalized.png
+Band 116    551.9nm  SNR:  0.38  Var:   395.5  Band_116_551.9nm_normalized.png
+Band 117    552.8nm  SNR:  0.38  Var:   390.5  Band_117_552.8nm_normalized.png
+Band 118    553.7nm  SNR:  0.38  Var:   385.1  Band_118_553.7nm_normalized.png
+Band 119    554.6nm  SNR:  0.38  Var:   379.7  Band_119_554.6nm_normalized.png
+Band 120    555.5nm  SNR:  0.38  Var:   373.7  Band_120_555.5nm_normalized.png
+Band 121    556.3nm  SNR:  0.38  Var:   365.4  Band_121_556.3nm_normalized.png
+Band 122    557.2nm  SNR:  0.38  Var:   356.8  Band_122_557.2nm_normalized.png
+Band 123    558.1nm  SNR:  0.38  Var:   349.1  Band_123_558.1nm_normalized.png
+Band 124    559.0nm  SNR:  0.38  Var:   341.6  Band_124_559.0nm_normalized.png
+Band 125    559.9nm  SNR:  0.38  Var:   334.1  Band_125_559.9nm_normalized.png
+Band 126    560.8nm  SNR:  0.38  Var:   328.0  Band_126_560.8nm_normalized.png
+Band 127    561.6nm  SNR:  0.38  Var:   323.3  Band_127_561.6nm_normalized.png
+Band 128    562.5nm  SNR:  0.38  Var:   318.3  Band_128_562.5nm_normalized.png
+Band 129    563.4nm  SNR:  0.38  Var:   313.0  Band_129_563.4nm_normalized.png
+Band 130    564.3nm  SNR:  0.38  Var:   307.7  Band_130_564.3nm_normalized.png
+Band 131    565.2nm  SNR:  0.38  Var:   301.5  Band_131_565.2nm_normalized.png
+Band 132    566.0nm  SNR:  0.38  Var:   294.7  Band_132_566.0nm_normalized.png
+Band 133    566.9nm  SNR:  0.38  Var:   287.6  Band_133_566.9nm_normalized.png
+Band 134    567.8nm  SNR:  0.38  Var:   280.5  Band_134_567.8nm_normalized.png
+Band 135    568.7nm  SNR:  0.38  Var:   272.7  Band_135_568.7nm_normalized.png
+Band 136    569.6nm  SNR:  0.38  Var:   265.7  Band_136_569.6nm_normalized.png
+Band 137    570.5nm  SNR:  0.38  Var:   259.0  Band_137_570.5nm_normalized.png
+Band 138    571.3nm  SNR:  0.38  Var:   252.8  Band_138_571.3nm_normalized.png
+Band 139    572.2nm  SNR:  0.38  Var:   246.9  Band_139_572.2nm_normalized.png
+Band 140    573.1nm  SNR:  0.38  Var:   242.0  Band_140_573.1nm_normalized.png
+Band 141    574.0nm  SNR:  0.38  Var:   237.4  Band_141_574.0nm_normalized.png
+Band 142    574.9nm  SNR:  0.38  Var:   232.8  Band_142_574.9nm_normalized.png
+Band 143    575.8nm  SNR:  0.38  Var:   228.3  Band_143_575.8nm_normalized.png
+Band 144    576.6nm  SNR:  0.38  Var:   223.7  Band_144_576.6nm_normalized.png
+Band 145    577.5nm  SNR:  0.38  Var:   218.1  Band_145_577.5nm_normalized.png
+Band 150    581.9nm  SNR:  0.38  Var:   181.8  Band_150_581.9nm_normalized.png
+Band 151    582.8nm  SNR:  0.38  Var:   175.7  Band_151_582.8nm_normalized.png
+Band 152    583.7nm  SNR:  0.38  Var:   170.5  Band_152_583.7nm_normalized.png
+Band 153    584.6nm  SNR:  0.38  Var:   166.4  Band_153_584.6nm_normalized.png
+Band 154    585.5nm  SNR:  0.38  Var:   163.6  Band_154_585.5nm_normalized.png
+Band 155    586.3nm  SNR:  0.38  Var:   160.7  Band_155_586.3nm_normalized.png
+Band 166    596.0nm  SNR:  0.38  Var:   111.0  Band_166_596.0nm_normalized.png
+Band 211    635.7nm  SNR:  0.38  Var:    24.4  Band_211_635.7nm_normalized.png
+Band 212    636.6nm  SNR:  0.38  Var:    23.5  Band_212_636.6nm_normalized.png
+Band 213    637.5nm  SNR:  0.38  Var:    22.7  Band_213_637.5nm_normalized.png
+Band 214    638.4nm  SNR:  0.38  Var:    22.0  Band_214_638.4nm_normalized.png
+Band 215    639.3nm  SNR:  0.38  Var:    21.4  Band_215_639.3nm_normalized.png
+Band 221    644.5nm  SNR:  0.38  Var:    17.6  Band_221_644.5nm_normalized.png
+Band 222    645.4nm  SNR:  0.38  Var:    16.8  Band_222_645.4nm_normalized.png
+Band 223    646.3nm  SNR:  0.38  Var:    16.1  Band_223_646.3nm_normalized.png
+Band 224    647.2nm  SNR:  0.38  Var:    15.4  Band_224_647.2nm_normalized.png
+Band 225    648.1nm  SNR:  0.38  Var:    14.7  Band_225_648.1nm_normalized.png
+Band 226    649.0nm  SNR:  0.38  Var:    14.0  Band_226_649.0nm_normalized.png
+Band 227    649.8nm  SNR:  0.38  Var:    13.4  Band_227_649.8nm_normalized.png
+Band 228    650.7nm  SNR:  0.38  Var:    12.8  Band_228_650.7nm_normalized.png
+Band 229    651.6nm  SNR:  0.38  Var:    12.3  Band_229_651.6nm_normalized.png
+Band 230    652.5nm  SNR:  0.38  Var:    11.9  Band_230_652.5nm_normalized.png
+Band 231    653.4nm  SNR:  0.38  Var:    11.4  Band_231_653.4nm_normalized.png
+Band 232    654.2nm  SNR:  0.38  Var:    11.1  Band_232_654.2nm_normalized.png
+Band 233    655.1nm  SNR:  0.38  Var:    10.8  Band_233_655.1nm_normalized.png
+Band 234    656.0nm  SNR:  0.38  Var:    10.4  Band_234_656.0nm_normalized.png
+Band 235    656.9nm  SNR:  0.38  Var:    10.2  Band_235_656.9nm_normalized.png
+Band 236    657.8nm  SNR:  0.38  Var:     9.9  Band_236_657.8nm_normalized.png
+Band 237    658.7nm  SNR:  0.38  Var:     9.6  Band_237_658.7nm_normalized.png
+Band 238    659.5nm  SNR:  0.38  Var:     9.3  Band_238_659.5nm_normalized.png
+Band 239    660.4nm  SNR:  0.38  Var:     9.1  Band_239_660.4nm_normalized.png
+Band 240    661.3nm  SNR:  0.38  Var:     8.7  Band_240_661.3nm_normalized.png
+Band 241    662.2nm  SNR:  0.38  Var:     8.4  Band_241_662.2nm_normalized.png
+Band 242    663.1nm  SNR:  0.38  Var:     8.1  Band_242_663.1nm_normalized.png
+Band 243    664.0nm  SNR:  0.38  Var:     7.8  Band_243_664.0nm_normalized.png
+Band 244    664.8nm  SNR:  0.38  Var:     7.5  Band_244_664.8nm_normalized.png
+Band 245    665.7nm  SNR:  0.38  Var:     7.2  Band_245_665.7nm_normalized.png
+Band 246    666.6nm  SNR:  0.38  Var:     6.9  Band_246_666.6nm_normalized.png
+
+NOISY BANDS (skipped):
+--------------------------------------------------------------------------------
+Band 146    578.4nm  Low SNR (0.38)
+Band 147    579.3nm  Low SNR (0.38)
+Band 148    580.2nm  Low SNR (0.38)
+Band 149    581.0nm  Low SNR (0.38)
+Band 156    587.2nm  Low SNR (0.38)
+Band 157    588.1nm  Low SNR (0.38)
+Band 158    589.0nm  Low SNR (0.38)
+Band 159    589.9nm  Low SNR (0.38)
+Band 160    590.7nm  Low SNR (0.38)
+Band 161    591.6nm  Low SNR (0.38)
+Band 162    592.5nm  Low SNR (0.38)
+Band 163    593.4nm  Low SNR (0.38)
+Band 164    594.3nm  Low SNR (0.38)
+Band 165    595.2nm  Low SNR (0.38)
+Band 167    596.9nm  Low SNR (0.38)
+Band 168    597.8nm  Low SNR (0.38)
+Band 169    598.7nm  Low SNR (0.38)
+Band 170    599.6nm  Low SNR (0.38)
+Band 171    600.4nm  Low SNR (0.37)
+Band 172    601.3nm  Low SNR (0.37)
+Band 173    602.2nm  Low SNR (0.37)
+Band 174    603.1nm  Low SNR (0.37)
+Band 175    604.0nm  Low SNR (0.37)
+Band 176    604.9nm  Low SNR (0.38)
+Band 177    605.7nm  Low SNR (0.38)
+Band 178    606.6nm  Low SNR (0.38)
+Band 179    607.5nm  Low SNR (0.38)
+Band 180    608.4nm  Low SNR (0.38)
+Band 181    609.3nm  Low SNR (0.38)
+Band 182    610.1nm  Low SNR (0.38)
+Band 183    611.0nm  Low SNR (0.38)
+Band 184    611.9nm  Low SNR (0.38)
+Band 185    612.8nm  Low SNR (0.37)
+Band 186    613.7nm  Low SNR (0.37)
+Band 187    614.6nm  Low SNR (0.37)
+Band 188    615.4nm  Low SNR (0.37)
+Band 189    616.3nm  Low SNR (0.37)
+Band 190    617.2nm  Low SNR (0.38)
+Band 191    618.1nm  Low SNR (0.38)
+Band 192    619.0nm  Low SNR (0.38)
+Band 193    619.9nm  Low SNR (0.38)
+Band 194    620.7nm  Low SNR (0.38)
+Band 195    621.6nm  Low SNR (0.38)
+Band 196    622.5nm  Low SNR (0.38)
+Band 197    623.4nm  Low SNR (0.38)
+Band 198    624.3nm  Low SNR (0.38)
+Band 199    625.1nm  Low SNR (0.38)
+Band 200    626.0nm  Low SNR (0.38)
+Band 201    626.9nm  Low SNR (0.38)
+Band 202    627.8nm  Low SNR (0.38)
+Band 203    628.7nm  Low SNR (0.38)
+Band 204    629.6nm  Low SNR (0.38)
+Band 205    630.4nm  Low SNR (0.38)
+Band 206    631.3nm  Low SNR (0.38)
+Band 207    632.2nm  Low SNR (0.38)
+Band 208    633.1nm  Low SNR (0.38)
+Band 209    634.0nm  Low SNR (0.38)
+Band 210    634.8nm  Low SNR (0.38)
+Band 216    640.1nm  Low SNR (0.38)
+Band 217    641.0nm  Low SNR (0.38)
+Band 218    641.9nm  Low SNR (0.38)
+Band 219    642.8nm  Low SNR (0.38)
+Band 220    643.7nm  Low SNR (0.38)
+Band 247    667.5nm  Near-zero signal
+Band 248    668.4nm  Near-zero signal
+Band 249    669.2nm  Near-zero signal
+Band 250    670.1nm  Near-zero signal
+Band 251    671.0nm  Near-zero signal
+Band 252    671.9nm  Near-zero signal
+Band 253    672.8nm  Near-zero signal
+Band 254    673.7nm  Near-zero signal
+Band 255    674.5nm  Near-zero signal
+Band 256    675.4nm  Near-zero signal
+Band 257    676.3nm  Near-zero signal
+Band 258    677.2nm  Near-zero signal
+Band 259    678.1nm  Near-zero signal
+Band 260    678.9nm  Near-zero signal
+Band 261    679.8nm  Near-zero signal
+Band 262    680.7nm  Near-zero signal
+Band 263    681.6nm  Near-zero signal
+Band 264    682.5nm  Near-zero signal
+Band 265    683.4nm  Near-zero signal
+Band 266    684.2nm  Near-zero signal
+Band 267    685.1nm  Near-zero signal
+Band 268    686.0nm  Near-zero signal
+Band 269    686.9nm  Near-zero signal
+Band 270    687.8nm  Near-zero signal
+Band 271    688.6nm  Near-zero signal
+Band 272    689.5nm  Near-zero signal
+Band 273    690.4nm  Near-zero signal
+Band 274    691.3nm  Near-zero signal
+Band 275    692.2nm  Near-zero signal
+Band 276    693.1nm  Low variance (3.23), Near-zero signal
+Band 277    693.9nm  Low variance (3.20), Near-zero signal
+Band 278    694.8nm  Low variance (3.18), Near-zero signal
+Band 279    695.7nm  Low variance (3.17), Near-zero signal
+Band 280    696.6nm  Low variance (3.15), Near-zero signal
+Band 281    697.5nm  Low variance (3.12), Near-zero signal
+Band 282    698.3nm  Low variance (3.09), Near-zero signal
+Band 283    699.2nm  Low variance (3.05), Near-zero signal
+Band 284    700.1nm  Low variance (3.00), Near-zero signal
+Band 285    701.0nm  Low variance (2.93), Near-zero signal
+Band 286    701.9nm  Low variance (2.85), Near-zero signal
+Band 287    702.8nm  Low variance (2.76), Near-zero signal
+Band 288    703.6nm  Low variance (2.66), Near-zero signal
+Band 289    704.5nm  Low variance (2.54), Near-zero signal
+Band 290    705.4nm  Low variance (2.39), Near-zero signal
+Band 291    706.3nm  Low variance (2.26), Near-zero signal
+Band 292    707.2nm  Low variance (2.14), Near-zero signal
+Band 293    708.1nm  Low variance (2.03), Near-zero signal
+Band 294    708.9nm  Low variance (1.93), Near-zero signal
+Band 295    709.8nm  Low variance (1.86), Near-zero signal
+Band 296    710.7nm  Low variance (1.78), Near-zero signal
+Band 297    711.6nm  Low variance (1.71), Near-zero signal
+Band 298    712.5nm  Low variance (1.65), Near-zero signal
+Band 299    713.3nm  Low variance (1.59), Near-zero signal
+Band 300    714.2nm  Low variance (1.56), Near-zero signal
+Band 301    715.1nm  Low variance (1.53), Near-zero signal
+Band 302    716.0nm  Low variance (1.49), Near-zero signal
+Band 303    716.9nm  Low variance (1.46), Near-zero signal
+Band 304    717.8nm  Low variance (1.43), Near-zero signal
+Band 305    718.6nm  Low variance (1.39), Near-zero signal
+Band 306    719.5nm  Low variance (1.35), Near-zero signal
+Band 307    720.4nm  Low variance (1.30), Near-zero signal
+Band 308    721.3nm  Low variance (1.24), Near-zero signal
+Band 309    722.2nm  Low variance (1.17), Near-zero signal
+Band 310    723.0nm  Low variance (1.09), Near-zero signal
+Band 311    723.9nm  Low variance (1.01), Near-zero signal
+Band 312    724.8nm  Low variance (0.94), Near-zero signal
+Band 313    725.7nm  Low variance (0.86), Near-zero signal
+Band 314    726.6nm  Low variance (0.79), Near-zero signal
+Band 315    727.5nm  Low variance (0.73), Near-zero signal
+Band 316    728.3nm  Low variance (0.68), Near-zero signal
+Band 317    729.2nm  Low variance (0.63), Near-zero signal
+Band 318    730.1nm  Low variance (0.59), Near-zero signal
+Band 319    731.0nm  Low variance (0.56), Near-zero signal
+Band 320    731.9nm  Low variance (0.53), Near-zero signal
+Band 321    732.7nm  Low variance (0.51), Near-zero signal
+Band 322    733.6nm  Low variance (0.49), Near-zero signal
+Band 323    734.5nm  Low variance (0.47), Near-zero signal
+Band 324    735.4nm  Low variance (0.45), Near-zero signal
+Band 325    736.3nm  Low variance (0.44), Near-zero signal
+Band 326    737.2nm  Low variance (0.43), Near-zero signal
+Band 327    738.0nm  Low variance (0.42), Near-zero signal
+Band 328    738.9nm  Low variance (0.40), Near-zero signal
+Band 329    739.8nm  Low variance (0.39), Near-zero signal
+Band 330    740.7nm  Low variance (0.37), Near-zero signal
+Band 331    741.6nm  Low variance (0.36), Near-zero signal
+Band 332    742.4nm  Low variance (0.34), Near-zero signal
+Band 333    743.3nm  Low variance (0.32), Near-zero signal
+Band 334    744.2nm  Low variance (0.30), Near-zero signal
+Band 335    745.1nm  Low variance (0.28), Near-zero signal
+Band 336    746.0nm  Low variance (0.26), Near-zero signal
+Band 337    746.9nm  Low variance (0.25), Near-zero signal
+Band 338    747.7nm  Low variance (0.23), Near-zero signal
+Band 339    748.6nm  Low SNR (0.38), Low variance (0.22)
+Band 340    749.5nm  Low SNR (0.37), Low variance (0.21)
+Band 341    750.4nm  Low SNR (0.37), Low variance (0.20)
+Band 342    751.3nm  Low SNR (0.37), Low variance (0.19)
+Band 343    752.2nm  Low SNR (0.37), Low variance (0.19)
+Band 344    753.0nm  Low SNR (0.37), Low variance (0.18)
+Band 345    753.9nm  Low SNR (0.37), Low variance (0.17)
+Band 346    754.8nm  Low SNR (0.36), Low variance (0.17)
+Band 347    755.7nm  Low SNR (0.36), Low variance (0.17)
+Band 348    756.6nm  Low SNR (0.36), Low variance (0.16)
+Band 349    757.4nm  Low SNR (0.36), Low variance (0.16)
+Band 350    758.3nm  Low SNR (0.36), Low variance (0.16)
+Band 351    759.2nm  Low SNR (0.35), Low variance (0.15)
+Band 352    760.1nm  Low SNR (0.35), Low variance (0.15)
+Band 353    761.0nm  Low SNR (0.35), Low variance (0.15)
+Band 354    761.9nm  Low SNR (0.35), Low variance (0.15)
+Band 355    762.7nm  Low SNR (0.34), Low variance (0.14)
+Band 356    763.6nm  Low SNR (0.34), Low variance (0.14)
+Band 357    764.5nm  Low SNR (0.34), Low variance (0.13)
+Band 358    765.4nm  Low SNR (0.34), Low variance (0.13)
+Band 359    766.3nm  Low SNR (0.34), Low variance (0.12)
+Band 360    767.1nm  Low SNR (0.33), Low variance (0.12)
+Band 361    768.0nm  Low SNR (0.33), Low variance (0.11)
+Band 362    768.9nm  Low SNR (0.32), Low variance (0.11)
+Band 363    769.8nm  Low SNR (0.32), Low variance (0.11)
+Band 364    770.7nm  Low SNR (0.32), Low variance (0.10)
+Band 365    771.6nm  Low SNR (0.32), Low variance (0.10)
+Band 366    772.4nm  Low SNR (0.31), Low variance (0.09)
+Band 367    773.3nm  Low SNR (0.31), Low variance (0.09)
+Band 368    774.2nm  Low SNR (0.31), Low variance (0.09)
+Band 369    775.1nm  Low SNR (0.31), Low variance (0.09)
+Band 370    776.0nm  Low SNR (0.30), Low variance (0.08)
+Band 371    776.8nm  Low SNR (0.30), Low variance (0.08)
+Band 372    777.7nm  Low SNR (0.30), Low variance (0.08)
+Band 373    778.6nm  Low SNR (0.30), Low variance (0.08)
+Band 374    779.5nm  Low SNR (0.29), Low variance (0.08)
+Band 375    780.4nm  Low SNR (0.29), Low variance (0.08)
+Band 376    781.3nm  Low SNR (0.29), Low variance (0.08)
+Band 377    782.1nm  Low SNR (0.29), Low variance (0.08)
+Band 378    783.0nm  Low SNR (0.29), Low variance (0.07)
+Band 379    783.9nm  Low SNR (0.28), Low variance (0.07)
+Band 380    784.8nm  Low SNR (0.28), Low variance (0.07)
+Band 381    785.7nm  Low SNR (0.28), Low variance (0.07)
+Band 382    786.5nm  Low SNR (0.28), Low variance (0.07)
+Band 383    787.4nm  Low SNR (0.28), Low variance (0.07)
+Band 384    788.3nm  Low SNR (0.27), Low variance (0.07)
+Band 385    789.2nm  Low SNR (0.27), Low variance (0.07)
+Band 386    790.1nm  Low SNR (0.27), Low variance (0.06)
+Band 387    791.0nm  Low SNR (0.26), Low variance (0.06)
+Band 388    791.8nm  Low SNR (0.26), Low variance (0.06)
+Band 389    792.7nm  Low SNR (0.26), Low variance (0.06)
+Band 390    793.6nm  Low SNR (0.25), Low variance (0.06)
+Band 391    794.5nm  Low SNR (0.25), Low variance (0.06)
+Band 392    795.4nm  Low SNR (0.25), Low variance (0.06)
+Band 393    796.3nm  Low SNR (0.24), Low variance (0.05)
+Band 394    797.1nm  Low SNR (0.24), Low variance (0.05)
+Band 395    798.0nm  Low SNR (0.24), Low variance (0.05)
+Band 396    798.9nm  Low SNR (0.24), Low variance (0.05)
+Band 397    799.8nm  Low SNR (0.24), Low variance (0.05)
+Band 398    800.7nm  Low SNR (0.23), Low variance (0.05)
+Band 399    801.5nm  Low SNR (0.23), Low variance (0.05)
+Band 400    802.4nm  Low SNR (0.23), Low variance (0.05)
+Band 401    803.3nm  Low SNR (0.23), Low variance (0.05)
+Band 402    804.2nm  Low SNR (0.23), Low variance (0.05)
+Band 403    805.1nm  Low SNR (0.22), Low variance (0.05)
+Band 404    806.0nm  Low SNR (0.22), Low variance (0.05)
+Band 405    806.8nm  Low SNR (0.22), Low variance (0.04)
+Band 406    807.7nm  Low SNR (0.22), Low variance (0.04)
+Band 407    808.6nm  Low SNR (0.22), Low variance (0.04)
+Band 408    809.5nm  Low SNR (0.22), Low variance (0.04)
+Band 409    810.4nm  Low SNR (0.21), Low variance (0.04)
+Band 410    811.2nm  Low SNR (0.21), Low variance (0.04)
+Band 411    812.1nm  Low SNR (0.21), Low variance (0.04)
+Band 412    813.0nm  Low SNR (0.21), Low variance (0.04)
+Band 413    813.9nm  Low SNR (0.21), Low variance (0.04)
+Band 414    814.8nm  Low SNR (0.21), Low variance (0.04)
+Band 415    815.7nm  Low SNR (0.21), Low variance (0.04)
+Band 416    816.5nm  Low SNR (0.20), Low variance (0.04)
+Band 417    817.4nm  Low SNR (0.20), Low variance (0.04)
+Band 418    818.3nm  Low SNR (0.20), Low variance (0.04)
+Band 419    819.2nm  Low SNR (0.20), Low variance (0.04)
+Band 420    820.1nm  Low SNR (0.20), Low variance (0.04)
+Band 421    820.9nm  Low SNR (0.20), Low variance (0.04)
+Band 422    821.8nm  Low SNR (0.20), Low variance (0.04)
+Band 423    822.7nm  Low SNR (0.20), Low variance (0.04)
+Band 424    823.6nm  Low SNR (0.20), Low variance (0.04)
+Band 425    824.5nm  Low SNR (0.19), Low variance (0.04)
+Band 426    825.4nm  Low SNR (0.19), Low variance (0.04)
+Band 427    826.2nm  Low SNR (0.19), Low variance (0.03)
+Band 428    827.1nm  Low SNR (0.19), Low variance (0.03)
+Band 429    828.0nm  Low SNR (0.19), Low variance (0.03)
+Band 430    828.9nm  Low SNR (0.19), Low variance (0.03)
+Band 431    829.8nm  Low SNR (0.19), Low variance (0.03)
+Band 432    830.6nm  Low SNR (0.19), Low variance (0.03)
+Band 433    831.5nm  Low SNR (0.19), Low variance (0.03)
+Band 434    832.4nm  Low SNR (0.18), Low variance (0.03)
+Band 435    833.3nm  Low SNR (0.18), Low variance (0.03)
+Band 436    834.2nm  Low SNR (0.18), Low variance (0.03)
+Band 437    835.1nm  Low SNR (0.19), Low variance (0.03)
+Band 438    835.9nm  Low SNR (0.18), Low variance (0.03)
+Band 439    836.8nm  Low SNR (0.18), Low variance (0.03)
+Band 440    837.7nm  Low SNR (0.18), Low variance (0.03)
+Band 441    838.6nm  Low SNR (0.18), Low variance (0.03)
+Band 442    839.5nm  Low SNR (0.18), Low variance (0.03)
+Band 443    840.4nm  Low SNR (0.18), Low variance (0.03)
+Band 444    841.2nm  Low SNR (0.18), Low variance (0.03)
+Band 445    842.1nm  Low SNR (0.18), Low variance (0.03)
+Band 446    843.0nm  Low SNR (0.18), Low variance (0.03)
+Band 447    843.9nm  Low SNR (0.18), Low variance (0.03)
+Band 448    844.8nm  Low SNR (0.18), Low variance (0.03)
+Band 449    845.6nm  Low SNR (0.18), Low variance (0.03)
+Band 450    846.5nm  Low SNR (0.18), Low variance (0.03)
+Band 451    847.4nm  Low SNR (0.18), Low variance (0.03)
+Band 452    848.3nm  Low SNR (0.17), Low variance (0.03)
+Band 453    849.2nm  Low SNR (0.17), Low variance (0.03)
+Band 454    850.1nm  Low SNR (0.17), Low variance (0.03)
+Band 455    850.9nm  Low SNR (0.17), Low variance (0.03)
+Band 456    851.8nm  Low SNR (0.17), Low variance (0.03)
+Band 457    852.7nm  Low SNR (0.17), Low variance (0.03)
+Band 458    853.6nm  Low SNR (0.17), Low variance (0.03)
